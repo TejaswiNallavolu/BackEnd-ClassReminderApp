@@ -6074,24 +6074,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\S542271\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\s542414\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\S542271\\OneDrive - nwmissouri.edu\\Desktop\\GDP\\AuthProject\\AuthProject\\AuthProject.csproj",
+      "projectUniqueName": "C:\\Users\\s542414\\Desktop\\GDP\\BackEnd-ClassReminderApp\\AuthProject\\AuthProject.csproj",
       "projectName": "AuthProject",
-      "projectPath": "C:\\Users\\S542271\\OneDrive - nwmissouri.edu\\Desktop\\GDP\\AuthProject\\AuthProject\\AuthProject.csproj",
-      "packagesPath": "C:\\Users\\S542271\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\S542271\\OneDrive - nwmissouri.edu\\Desktop\\GDP\\AuthProject\\AuthProject\\obj\\",
+      "projectPath": "C:\\Users\\s542414\\Desktop\\GDP\\BackEnd-ClassReminderApp\\AuthProject\\AuthProject.csproj",
+      "packagesPath": "C:\\Users\\s542414\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\s542414\\Desktop\\GDP\\BackEnd-ClassReminderApp\\AuthProject\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\S542271\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\s542414\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6099,7 +6094,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -6150,6 +6145,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.12, 5.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
