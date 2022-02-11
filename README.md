@@ -24,6 +24,7 @@
 # Useful Links
 - [Wiki](https://github.com/TejaswiNallavolu/angular-app-heroku/wiki)   
 - [Issues](https://github.com/TejaswiNallavolu/angular-app-heroku/issues)
+- [Issues for backend](https://github.com/TejaswiNallavolu/BackEnd-ClassReminderApp/issues)
 - [Project Board](https://github.com/TejaswiNallavolu/angular-app-heroku/projects/1)
 - [Back-end Repo](https://github.com/TejaswiNallavolu/BackEnd-ClassReminderApp)
 - [RFP](https://github.com/harshakurra123/ClassRemainder)
