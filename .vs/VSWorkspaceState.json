@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\AuthProject",
+    "\\AuthProject\\bin",
+    "\\AuthProject\\Controllers",
+    "\\AuthProject\\Data",
+    "\\AuthProject\\Migrations",
+    "\\AuthProject\\Models",
+    "\\AuthProject\\obj"
+  ],
+  "SelectedNode": "\\AuthProject\\Controllers\\LoginController.cs",
+  "PreviewInSolutionExplorer": false
+}
