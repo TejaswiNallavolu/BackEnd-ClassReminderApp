@@ -1,6 +1,7 @@
 using AuthProject.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -39,6 +40,17 @@ namespace AuthProject
                 options.UseNpgsql(
                     Configuration.GetConnectionString("DefaultConnection")));
 
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //    options.UseSqlServer(
+            //        Configuration.GetConnectionString("DefaultConnection")));
+
+
+
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+.AddEntityFrameworkStores<ApplicationDbContext>();
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AuthProject", Version = "v1" });
@@ -59,6 +71,7 @@ namespace AuthProject
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
