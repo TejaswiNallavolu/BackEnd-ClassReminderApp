@@ -29,3 +29,4 @@
 - [Back-end Repo](https://github.com/TejaswiNallavolu/BackEnd-ClassReminderApp)
 - [RFP](https://github.com/harshakurra123/ClassRemainder)
 - [Proposal](https://github.com/TejaswiNallavolu/proposal)
+- [Link to class-list API](http://www.classreminderproj.somee.com/api/ClassList/getAllClassList)
