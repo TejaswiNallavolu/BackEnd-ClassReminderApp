@@ -40,28 +40,5 @@ namespace AuthProject.Controllers
             return Ok(user);
         }
 
-        //[HttpPost("login")]
-        //public IActionResult Login(User user)
-        //{
-        //    var res = context.Users.FirstOrDefault(x => x.Username == user.Username);
-        //    if (res == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return Ok(res);
-
-        //}
-
-        //[HttpGet("login")]
-        //public IActionResult Login(string username, string password)
-        //{
-        //    var res = context.Users.FirstOrDefault(x => x.Username == username && x.Password==password);
-        //    if (res == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return Ok(res);
-
-        //}
     }
 }
