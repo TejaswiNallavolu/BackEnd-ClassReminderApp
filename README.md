@@ -30,3 +30,6 @@
 - [RFP](https://github.com/harshakurra123/ClassRemainder)
 - [Proposal](https://github.com/TejaswiNallavolu/proposal)
 - [Link to class-list API](http://www.classreminderproj.somee.com/api/ClassList/getAllClassList)
+
+# Testing 
+- [Sonarcloud Report](https://sonarcloud.io/project/overview?id=TejaswiNallavolu_angular-app-heroku)
