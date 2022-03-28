@@ -33,3 +33,58 @@
 
 # Testing 
 - [Sonarcloud Report](https://sonarcloud.io/project/overview?id=TejaswiNallavolu_angular-app-heroku)
+- 
+## Project Setup
+
+### Prerequisites
+
+1. You need to have Node and NPM installed on your PC.
+
+[Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+### How To Install
+
+1. Download the source code using git or else download and unzip the zip file.
+
+2. Open a terminal window and go to the project root folder.
+
+3. You need to have npm installed globally.
+
+4. Run `npm i` to install the required libraries.
+
+### How To Run
+
+1. Run `ng serve` for a dev server.
+ 
+2. Navigate to `http://localhost:4200/`.
+
+3. The browser will automatically reload if you change any of the source files.
+
+### How To Run Unit Tests
+
+1. To run the unit tests, you need to stop the server.
+ 
+2. If the server is running, stop the server from the terminal window by pressing *Control-C*.
+
+3. To run the unit tests, Run the following command in the terminal window.
+
+   `ng test -- --no-watch --no-progress --browsers=ChromeHeadlessCI`
+
+## Links to API-
+<!--- [Login API](http://www.classreminder-1a.somee.com/api/login/allUser) 
+- [List of classes API](http://www.classreminder-1a.somee.com/api/login/getAllList) -->
+- [Link to class-list API](http://www.classreminderproj.somee.com/api/ClassList/getAllClassList) 
+
+## Code quality
+- [Codacy](https://app.codacy.com/gh/TejaswiNallavolu/angular-app-heroku/dashboard?utm_source=github.com&utm_medium=referral&utm_content=TejaswiNallavolu/angular-app-heroku&utm_campaign=Badge_Grade)
+
+## Testing & Security
+- [Sonarcloud Report](https://sonarcloud.io/project/overview?id=TejaswiNallavolu_angular-app-heroku)
+
+   ![SonarCloud](https://github.com/TejaswiNallavolu/angular-app-heroku/blob/main/src/assets/SonarCloud.JPG)
+
+## Documentation site
+- We have used [Swagger](https://app.swaggerhub.com/apis-docs/TejaswiNallavolu/auth-project/v1#/) for API Documentation.
+
+## Deployment
+- How to deploy angular app to heroku. [Documentation site](https://www.javaguides.net/2020/11/how-to-deploy-angular-application-to-heroku.html)
